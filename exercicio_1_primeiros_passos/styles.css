@@ -1,0 +1,103 @@
+body {
+    padding-bottom: 48px;
+    background-color: lightgray;
+    font-family: 'ubuntu';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+h1 {
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+    color:#d1d1d1;
+    text-align: center;
+    background-image: url(https://media.giphy.com/media/iicDrNGWxHmDrIni6j/giphy.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 48px;
+}
+
+p {
+    font-size: 14px;
+}
+
+a.button {
+    padding: 10px;
+    border:2px solid black;
+    border-radius: 30px;
+    margin-top: 20px;
+    color: whitesmoke;
+    display: inline-block;
+}
+
+.img {
+    height: 32px;
+}
+
+.row {
+    display: flex;
+    justify-content:space-evenly;
+    gap: 10%;
+    align-content: center;
+}
+
+.column {
+    flex-basis: 33%;
+}
+
+.youtube {
+    margin-top: 32px;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+}
+nav > ul {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    height: 48px;
+    background: #1B0327;
+    border-bottom: 5px #F60074 solid;
+    font-family: 'Ubuntu',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+#dihlogo {
+    margin-right:20px;
+}
+
+.navbar a {
+    float:inline-end; 
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 3px #F60074 solid;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #F60074;
+    transition: 300ms;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.content {
+    min-height: calc(100vh -40px);
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
